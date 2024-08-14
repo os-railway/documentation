@@ -1,4 +1,7 @@
 site_name: OS-Railway
 nav:
   - Home: index.md
+  - Remote Control: remote-control.md
+  - ICE: ice.md
+  - Thomas the Tank Engine: thomas-the-tank-engine.md
 theme: readthedocs
