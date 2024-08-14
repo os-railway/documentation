@@ -4,7 +4,8 @@ on:
   push:
 
 jobs:
-  build:
+  build_deploy:
+    name: Build and Deploy
     strategy:
       matrix:
         os: [ubuntu-latest]
