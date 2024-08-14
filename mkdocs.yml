@@ -1,4 +1,5 @@
 site_name: OS-Railway
+edit_uri: https://github.com/os-railway/os-railway/blob/documentation/docs/
 theme: 
   name: readthedocs
   analytics:
