@@ -1,7 +1,10 @@
 site_name: OS-Railway
+theme: 
+  name: readthedocs
+  analytics:
+    gtag: G-GPW4XBJ70J
 nav:
   - Home: index.md
   - Remote Control: remote-control.md
   - ICE: ice.md
   - Thomas the Tank Engine: thomas-the-tank-engine.md
-theme: readthedocs
