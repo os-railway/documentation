@@ -3,6 +3,9 @@ name: MkDocs Build and Deploy
 on:
   push:
 
+permissions:
+  contents: write
+
 jobs:
   build_deploy:
     name: Build and Deploy
