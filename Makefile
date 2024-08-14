@@ -1,5 +1,5 @@
 deploy:
-	mkdocs gh-deploy --config-file mkdocs.yml --remote-branch master
+	mkdocs gh-deploy --config-file mkdocs.yml --remote-branch main
 	rm -rf site
 
 serve:
