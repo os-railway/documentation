@@ -15,7 +15,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
-      
+
       - uses: actions/setup-python@v3
 
       - name: Install mkdocs
@@ -24,4 +24,7 @@ jobs:
           pip install -U mkdocs
 
       - name: Build and deploy website
-        run: make deploy
+        run: |
+          git config --global user.name 'Peter Siegmund'
+          git config --global user.email 'mars3142@users.noreply.github.com'
+          make deploy
