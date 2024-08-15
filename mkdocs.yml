@@ -1,11 +1,20 @@
 site_name: OS-Railway
+site_description: Everything about OS-Railway
 edit_uri: https://github.com/os-railway/os-railway/blob/documentation/docs/
 theme: 
   name: readthedocs
   analytics:
     gtag: G-GPW4XBJ70J
 nav:
-  - Home: index.md
-  - Remote Control: remote-control.md
-  - ICE: ice.md
-  - Thomas the Tank Engine: thomas-the-tank-engine.md
+  - index.md
+  - Special Hardware:
+    - remote-control.md
+    - track.md
+  - Trains:
+    - ice.md
+    - thomas-the-tank-engine.md
+markdown_extensions:
+  - toc:
+      permalink: ""
+      baselevel: 2
+      separator: "_"
